@@ -1,0 +1,268 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "",
+    "apiKey": "",
+    "indexName": "tanstack-store"
+  },
+  "sections": [
+    {
+      "label": "Getting Started",
+      "children": [
+        {
+          "label": "Overview",
+          "to": "overview"
+        },
+        {
+          "label": "Installation",
+          "to": "installation"
+        },
+        {
+          "label": "Quick Start",
+          "to": "quick-start"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/react/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/vue/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/solid/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/angular/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/svelte/quick-start"
+            }
+          ]
+        },
+        {
+          "label": "preact",
+          "children": [
+            {
+              "label": "Quick Start",
+              "to": "framework/preact/quick-start"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "API Reference",
+      "children": [
+        {
+          "label": "JavaScript Reference",
+          "to": "reference/index"
+        },
+        {
+          "label": "Classes / Store",
+          "to": "reference/classes/store"
+        },
+        {
+          "label": "Classes / Derived",
+          "to": "reference/classes/derived"
+        },
+        {
+          "label": "Classes / Effect",
+          "to": "reference/classes/effect"
+        },
+        {
+          "label": "Interfaces / StoreOptions",
+          "to": "reference/interfaces/storeoptions"
+        },
+        {
+          "label": "Interfaces / DerivedOptions",
+          "to": "reference/interfaces/derivedoptions"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "React Reference",
+              "to": "framework/react/reference/index"
+            },
+            {
+              "label": "Functions / useStore",
+              "to": "framework/react/reference/functions/useStore"
+            },
+            {
+              "label": "Functions / shallow",
+              "to": "framework/react/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Vue Reference",
+              "to": "framework/vue/reference/index"
+            },
+            {
+              "label": "Functions / useStore",
+              "to": "framework/vue/reference/functions/useStore"
+            },
+            {
+              "label": "Functions / shallow",
+              "to": "framework/vue/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Solid Reference",
+              "to": "framework/solid/reference/index"
+            },
+            {
+              "label": "Functions / useStore",
+              "to": "framework/solid/reference/functions/useStore"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Angular Reference",
+              "to": "framework/angular/reference/index"
+            },
+            {
+              "label": "Functions / injectStore",
+              "to": "framework/angular/reference/functions/injectStore"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelte Reference",
+              "to": "framework/svelte/reference/index"
+            },
+            {
+              "label": "Functions / useStore",
+              "to": "framework/svelte/reference/functions/useStore"
+            },
+            {
+              "label": "Functions / shallow",
+              "to": "framework/svelte/reference/functions/shallow"
+            }
+          ]
+        },
+        {
+          "label": "preact",
+          "children": [
+            {
+              "label": "Preact Reference",
+              "to": "framework/preact/reference/index"
+            },
+            {
+              "label": "Functions / useStore",
+              "to": "framework/preact/reference/functions/useStore"
+            },
+            {
+              "label": "Functions / shallow",
+              "to": "framework/preact/reference/functions/shallow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Examples",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/react/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/vue/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/angular/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/svelte/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/solid/examples/simple"
+            }
+          ]
+        },
+        {
+          "label": "preact",
+          "children": [
+            {
+              "label": "Simple",
+              "to": "framework/preact/examples/simple"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

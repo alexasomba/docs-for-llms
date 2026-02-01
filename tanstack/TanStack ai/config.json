@@ -1,0 +1,614 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "FQ0DQ6MA3C",
+    "apiKey": "8264730bab8a9b7fa6a0c85761d7a3fe",
+    "indexName": "tanstack"
+  },
+  "sections": [
+    {
+      "label": "Getting Started",
+      "children": [
+        {
+          "label": "Overview",
+          "to": "getting-started/overview"
+        },
+        {
+          "label": "Quick Start",
+          "to": "getting-started/quick-start"
+        },
+        {
+          "label": "Devtools",
+          "to": "getting-started/devtools"
+        }
+      ]
+    },
+    {
+      "label": "Guides",
+      "children": [
+        {
+          "label": "Tools",
+          "to": "guides/tools"
+        },
+        {
+          "label": "Tool Architecture",
+          "to": "guides/tool-architecture"
+        },
+        {
+          "label": "Server Tools",
+          "to": "guides/server-tools"
+        },
+        {
+          "label": "Client Tools",
+          "to": "guides/client-tools"
+        },
+        {
+          "label": "Tool Approval Flow",
+          "to": "guides/tool-approval"
+        },
+        {
+          "label": "Agentic Cycle",
+          "to": "guides/agentic-cycle"
+        },
+        {
+          "label": "Structured Outputs",
+          "to": "guides/structured-outputs"
+        },
+        {
+          "label": "Streaming",
+          "to": "guides/streaming"
+        },
+        {
+          "label": "Multimodal Content",
+          "to": "guides/multimodal-content"
+        },
+        {
+          "label": "Connection Adapters",
+          "to": "guides/connection-adapters"
+        },
+        {
+          "label": "Observability",
+          "to": "guides/observability"
+        },
+        {
+          "label": "Per-Model Type Safety",
+          "to": "guides/per-model-type-safety"
+        },
+        {
+          "label": "Runtime Adapter Switching",
+          "to": "guides/runtime-adapter-switching"
+        },
+        {
+          "label": "Text-to-Speech",
+          "to": "guides/text-to-speech"
+        },
+        {
+          "label": "Transcription",
+          "to": "guides/transcription"
+        },
+        {
+          "label": "Image Generation",
+          "to": "guides/image-generation"
+        },
+        {
+          "label": "Video Generation",
+          "to": "guides/video-generation"
+        },
+        {
+          "label": "Tree-Shaking",
+          "to": "guides/tree-shaking"
+        },
+        {
+          "label": "Migration Guide",
+          "to": "guides/migration"
+        }
+      ]
+    },
+    {
+      "label": "API",
+      "children": [
+        {
+          "label": "@tanstack/ai",
+          "to": "api/ai"
+        },
+        {
+          "label": "@tanstack/ai-client",
+          "to": "api/ai-client"
+        },
+        {
+          "label": "@tanstack/ai-react",
+          "to": "api/ai-react"
+        },
+        {
+          "label": "@tanstack/ai-solid",
+          "to": "api/ai-solid"
+        },
+        {
+          "label": "@tanstack/ai-preact",
+          "to": "api/ai-preact"
+        }
+      ]
+    },
+    {
+      "label": "Adapters",
+      "children": [
+        {
+          "label": "OpenAI",
+          "to": "adapters/openai"
+        },
+        {
+          "label": "OpenRouter",
+          "to": "adapters/openrouter"
+        },
+        {
+          "label": "Anthropic",
+          "to": "adapters/anthropic"
+        },
+        {
+          "label": "Google Gemini",
+          "to": "adapters/gemini"
+        },
+        {
+          "label": "Ollama",
+          "to": "adapters/ollama"
+        },
+        {
+          "label": "Grok (xAI)",
+          "to": "adapters/grok"
+        }
+      ]
+    },
+    {
+      "label": "Community Adapters",
+      "children": [
+        {
+          "label": "Community Adapters Guide",
+          "to": "community-adapters/guide"
+        },
+        {
+          "label": "Cencori",
+          "to": "community-adapters/cencori"
+        },
+        {
+          "label": "Decart",
+          "to": "community-adapters/decart"
+        },
+        {
+          "label": "Soniox",
+          "to": "community-adapters/soniox"
+        }
+      ]
+    },
+    {
+      "label": "Class References",
+      "collapsible": true,
+      "defaultCollapsed": true,
+      "children": [
+        {
+          "label": "BaseAdapter",
+          "to": "reference/classes/BaseAdapter"
+        },
+        {
+          "label": "BatchStrategy",
+          "to": "reference/classes/BatchStrategy"
+        },
+        {
+          "label": "CompositeStrategy",
+          "to": "reference/classes/CompositeStrategy"
+        },
+        {
+          "label": "ImmediateStrategy",
+          "to": "reference/classes/ImmediateStrategy"
+        },
+        {
+          "label": "PartialJSONParser",
+          "to": "reference/classes/PartialJSONParser"
+        },
+        {
+          "label": "PunctuationStrategy",
+          "to": "reference/classes/PunctuationStrategy"
+        },
+        {
+          "label": "StreamProcessor",
+          "to": "reference/classes/StreamProcessor"
+        },
+        {
+          "label": "ToolCallManager",
+          "to": "reference/classes/ToolCallManager"
+        },
+        {
+          "label": "WordBoundaryStrategy",
+          "to": "reference/classes/WordBoundaryStrategy"
+        }
+      ]
+    },
+    {
+      "label": "Function References",
+      "collapsible": true,
+      "defaultCollapsed": true,
+      "children": [
+        {
+          "label": "text",
+          "to": "reference/functions/text"
+        },
+        {
+          "label": "textOptions",
+          "to": "reference/functions/textOptions"
+        },
+        {
+          "label": "combineStrategies",
+          "to": "reference/functions/combineStrategies"
+        },
+        {
+          "label": "convertMessagesToModelMessages",
+          "to": "reference/functions/convertMessagesToModelMessages"
+        },
+        {
+          "label": "convertZodToJsonSchema",
+          "to": "reference/functions/convertZodToJsonSchema"
+        },
+        {
+          "label": "createReplayStream",
+          "to": "reference/functions/createReplayStream"
+        },
+        {
+          "label": "embedding",
+          "to": "reference/functions/embedding"
+        },
+        {
+          "label": "generateMessageId",
+          "to": "reference/functions/generateMessageId"
+        },
+        {
+          "label": "maxIterations",
+          "to": "reference/functions/maxIterations"
+        },
+        {
+          "label": "messages",
+          "to": "reference/functions/messages"
+        },
+        {
+          "label": "modelMessageToUIMessage",
+          "to": "reference/functions/modelMessageToUIMessage"
+        },
+        {
+          "label": "modelMessagesToUIMessages",
+          "to": "reference/functions/modelMessagesToUIMessages"
+        },
+        {
+          "label": "normalizeToUIMessage",
+          "to": "reference/functions/normalizeToUIMessage"
+        },
+        {
+          "label": "parsePartialJSON",
+          "to": "reference/functions/parsePartialJSON"
+        },
+        {
+          "label": "summarize",
+          "to": "reference/functions/summarize"
+        },
+        {
+          "label": "toServerSentEventsStream",
+          "to": "reference/functions/toServerSentEventsStream"
+        },
+        {
+          "label": "toServerSentEventsResponse",
+          "to": "reference/functions/toServerSentEventsResponse"
+        },
+        {
+          "label": "toolDefinition",
+          "to": "reference/functions/toolDefinition"
+        },
+        {
+          "label": "uiMessageToModelMessages",
+          "to": "reference/functions/uiMessageToModelMessages"
+        },
+        {
+          "label": "untilFinishReason",
+          "to": "reference/functions/untilFinishReason"
+        }
+      ]
+    },
+    {
+      "label": "Interface References",
+      "collapsible": true,
+      "defaultCollapsed": true,
+      "children": [
+        {
+          "label": "AIAdapter",
+          "to": "reference/interfaces/AIAdapter"
+        },
+        {
+          "label": "AIAdapterConfig",
+          "to": "reference/interfaces/AIAdapterConfig"
+        },
+        {
+          "label": "AgentLoopState",
+          "to": "reference/interfaces/AgentLoopState"
+        },
+        {
+          "label": "ApprovalRequestedStreamChunk",
+          "to": "reference/interfaces/ApprovalRequestedStreamChunk"
+        },
+        {
+          "label": "AudioPart",
+          "to": "reference/interfaces/AudioPart"
+        },
+        {
+          "label": "BaseStreamChunk",
+          "to": "reference/interfaces/BaseStreamChunk"
+        },
+        {
+          "label": "TextCompletionChunk",
+          "to": "reference/interfaces/TextCompletionChunk"
+        },
+        {
+          "label": "TextOptions",
+          "to": "reference/interfaces/TextOptions"
+        },
+        {
+          "label": "ChunkRecording",
+          "to": "reference/interfaces/ChunkRecording"
+        },
+        {
+          "label": "ChunkStrategy",
+          "to": "reference/interfaces/ChunkStrategy"
+        },
+        {
+          "label": "ClientTool",
+          "to": "reference/interfaces/ClientTool"
+        },
+        {
+          "label": "ContentPartSource",
+          "to": "reference/interfaces/ContentPartSource"
+        },
+        {
+          "label": "ContentStreamChunk",
+          "to": "reference/interfaces/ContentStreamChunk"
+        },
+        {
+          "label": "DefaultMessageMetadataByModality",
+          "to": "reference/interfaces/DefaultMessageMetadataByModality"
+        },
+        {
+          "label": "DocumentPart",
+          "to": "reference/interfaces/DocumentPart"
+        },
+        {
+          "label": "DoneStreamChunk",
+          "to": "reference/interfaces/DoneStreamChunk"
+        },
+        {
+          "label": "EmbeddingOptions",
+          "to": "reference/interfaces/EmbeddingOptions"
+        },
+        {
+          "label": "EmbeddingResult",
+          "to": "reference/interfaces/EmbeddingResult"
+        },
+        {
+          "label": "ErrorStreamChunk",
+          "to": "reference/interfaces/ErrorStreamChunk"
+        },
+        {
+          "label": "ImagePart",
+          "to": "reference/interfaces/ImagePart"
+        },
+        {
+          "label": "InternalToolCallState",
+          "to": "reference/interfaces/InternalToolCallState"
+        },
+        {
+          "label": "JSONParser",
+          "to": "reference/interfaces/JSONParser"
+        },
+        {
+          "label": "ModelMessage",
+          "to": "reference/interfaces/ModelMessage"
+        },
+        {
+          "label": "ProcessorResult",
+          "to": "reference/interfaces/ProcessorResult"
+        },
+        {
+          "label": "ProcessorState",
+          "to": "reference/interfaces/ProcessorState"
+        },
+        {
+          "label": "ResponseFormat",
+          "to": "reference/interfaces/ResponseFormat"
+        },
+        {
+          "label": "ServerTool",
+          "to": "reference/interfaces/ServerTool"
+        },
+        {
+          "label": "StreamProcessorEvents",
+          "to": "reference/interfaces/StreamProcessorEvents"
+        },
+        {
+          "label": "StreamProcessorHandlers",
+          "to": "reference/interfaces/StreamProcessorHandlers"
+        },
+        {
+          "label": "StreamProcessorOptions",
+          "to": "reference/interfaces/StreamProcessorOptions"
+        },
+        {
+          "label": "SummarizationOptions",
+          "to": "reference/interfaces/SummarizationOptions"
+        },
+        {
+          "label": "SummarizationResult",
+          "to": "reference/interfaces/SummarizationResult"
+        },
+        {
+          "label": "TextPart",
+          "to": "reference/interfaces/TextPart"
+        },
+        {
+          "label": "ThinkingPart",
+          "to": "reference/interfaces/ThinkingPart"
+        },
+        {
+          "label": "ThinkingStreamChunk",
+          "to": "reference/interfaces/ThinkingStreamChunk"
+        },
+        {
+          "label": "Tool",
+          "to": "reference/interfaces/Tool"
+        },
+        {
+          "label": "ToolCall",
+          "to": "reference/interfaces/ToolCall"
+        },
+        {
+          "label": "ToolCallPart",
+          "to": "reference/interfaces/ToolCallPart"
+        },
+        {
+          "label": "ToolCallStreamChunk",
+          "to": "reference/interfaces/ToolCallStreamChunk"
+        },
+        {
+          "label": "ToolConfig",
+          "to": "reference/interfaces/ToolConfig"
+        },
+        {
+          "label": "ToolDefinition",
+          "to": "reference/interfaces/ToolDefinition"
+        },
+        {
+          "label": "ToolDefinitionConfig",
+          "to": "reference/interfaces/ToolDefinitionConfig"
+        },
+        {
+          "label": "ToolDefinitionInstance",
+          "to": "reference/interfaces/ToolDefinitionInstance"
+        },
+        {
+          "label": "ToolInputAvailableStreamChunk",
+          "to": "reference/interfaces/ToolInputAvailableStreamChunk"
+        },
+        {
+          "label": "ToolResultPart",
+          "to": "reference/interfaces/ToolResultPart"
+        },
+        {
+          "label": "ToolResultStreamChunk",
+          "to": "reference/interfaces/ToolResultStreamChunk"
+        },
+        {
+          "label": "UIMessage",
+          "to": "reference/interfaces/UIMessage"
+        },
+        {
+          "label": "VideoPart",
+          "to": "reference/interfaces/VideoPart"
+        }
+      ]
+    },
+    {
+      "label": "Type Alias References",
+      "collapsible": true,
+      "defaultCollapsed": true,
+      "children": [
+        {
+          "label": "AgentLoopStrategy",
+          "to": "reference/type-aliases/AgentLoopStrategy"
+        },
+        {
+          "label": "AnyClientTool",
+          "to": "reference/type-aliases/AnyClientTool"
+        },
+        {
+          "label": "TextStreamOptionsForModel",
+          "to": "reference/type-aliases/TextStreamOptionsForModel"
+        },
+        {
+          "label": "TextStreamOptionsUnion",
+          "to": "reference/type-aliases/TextStreamOptionsUnion"
+        },
+        {
+          "label": "ConstrainedContent",
+          "to": "reference/type-aliases/ConstrainedContent"
+        },
+        {
+          "label": "ConstrainedModelMessage",
+          "to": "reference/type-aliases/ConstrainedModelMessage"
+        },
+        {
+          "label": "ContentPart",
+          "to": "reference/type-aliases/ContentPart"
+        },
+        {
+          "label": "ContentPartForModalities",
+          "to": "reference/type-aliases/ContentPartForModalities"
+        },
+        {
+          "label": "ExtractModalitiesForModel",
+          "to": "reference/type-aliases/ExtractModalitiesForModel"
+        },
+        {
+          "label": "ExtractModelsFromAdapter",
+          "to": "reference/type-aliases/ExtractModelsFromAdapter"
+        },
+        {
+          "label": "InferToolInput",
+          "to": "reference/type-aliases/InferToolInput"
+        },
+        {
+          "label": "InferToolName",
+          "to": "reference/type-aliases/InferToolName"
+        },
+        {
+          "label": "InferToolOutput",
+          "to": "reference/type-aliases/InferToolOutput"
+        },
+        {
+          "label": "MessagePart",
+          "to": "reference/type-aliases/MessagePart"
+        },
+        {
+          "label": "ModalitiesArrayToUnion",
+          "to": "reference/type-aliases/ModalitiesArrayToUnion"
+        },
+        {
+          "label": "Modality",
+          "to": "reference/type-aliases/Modality"
+        },
+        {
+          "label": "StreamChunk",
+          "to": "reference/type-aliases/StreamChunk"
+        },
+        {
+          "label": "StreamChunkType",
+          "to": "reference/type-aliases/StreamChunkType"
+        },
+        {
+          "label": "ToolCallState",
+          "to": "reference/type-aliases/ToolCallState"
+        },
+        {
+          "label": "ToolResultState",
+          "to": "reference/type-aliases/ToolResultState"
+        }
+      ]
+    },
+    {
+      "label": "Variable References",
+      "collapsible": true,
+      "defaultCollapsed": true,
+      "children": [
+        {
+          "label": "aiEventClient",
+          "to": "reference/variables/aiEventClient"
+        },
+        {
+          "label": "defaultJSONParser",
+          "to": "reference/variables/defaultJSONParser"
+        }
+      ]
+    }
+  ]
+}
